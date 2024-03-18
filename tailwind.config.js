@@ -16,7 +16,7 @@ export default {
           6: "#FF98E2",
         },
         stroke: {
-          1: "#26242C",
+          1: "#26242C", // LINHA QUADRADA DE CONTORNO
         },
         n: {
           1: "#FFFFFF",
@@ -28,8 +28,8 @@ export default {
           7: "#15131D",
           8: "#0E0C15",
           9: "#474060",
-          10: "#43435C",
-          11: "#1B1B2E",
+          10: "#43435C", // PARTE DE CIMA DO LAPTOP
+          11: "#1B1B2E", // PARTE DE BAIXO DO LAPTOP
           12: "#2E2A41",
           13: "#6C7275",
         },

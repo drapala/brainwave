@@ -39,33 +39,24 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "Serviços",
+    url: "#services",
   },
   {
     id: "1",
-    title: "Pricing",
+    title: "Preços",
     url: "#pricing",
   },
-  {
-    id: "2",
-    title: "How to use",
-    url: "#how-to-use",
-  },
-  {
-    id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
-  },
+  
   {
     id: "4",
-    title: "New account",
+    title: "",
     url: "#signup",
     onlyMobile: true,
   },
   {
     id: "5",
-    title: "Sign in",
+    title: "Entrar em contato",
     url: "#login",
     onlyMobile: true,
   },
@@ -128,21 +119,21 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Somos solução perfeita para negócios que buscam trabalhar de forma mais inteligente.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Integração de ponta a ponta",
+    text: "Esqueça todo o processo de captura de leads, conversão e suporte. Com nós você se preocupa apenas com o seu negócio. Simples!",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Automação da operação",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Suas mídias sociais trabalhando para você",
   },
 ];
 
@@ -208,35 +199,35 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
+    title: "E-book Método GSC",
+    description: "Saiba como os pilares fundamentais do marketing e gestão estratégica alinhados à IA podem impactar imediatamente o seu negócio.",
     price: "0",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Gestão de Leads e Marketing Digital",
+      "Integração com Vendas e Jornada de Compra",
+      "SEO e Marketing de conteúdo",
     ],
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    title: "Brainstorm",
+    description: "Reunião diagnóstico para traçar a estratégia da sua empresa.",
+    price: "97",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "Entender os gargalos atuais do seu negócio e como prevení-los",
+      "Executar as melhores práticas de mercado para seu nicho",
+      "Aliar algoritmos de Inteligência Artificial para melhorar sua eficiência",
     ],
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    title: "Partnership",
+    description: "Captura de leads e conversão otimizada através de funil de vendas, marketing digital e social media, tudo automatizado através de agentes de IA.",
     price: null,
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Definir um plano de ação estratégico",
+      "Aumentar a presença da sua marca no mundo digital",
+      "Automatizar atendimento, economiza custos, aumenta vendas, personaliza interações e oferece vantagem competitiva"
     ],
   },
 ];
@@ -244,53 +235,28 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Gestão de tráfego pago com IA",
+    text: "Otimização de anúncios pagos aliados a Inteligência Artificial para aumentar visibilidade e vendas rapidamente.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "./src/assets/benefits/card-2.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
-    light: true,
-  },
-  {
-    id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Social Media",
+    text: "Aumenta a presença da marca, envolve o público e direciona tráfego através de criação e gestão de conteúdo estratégico.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
-    iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-4.svg",
-    iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
-    light: true,
-  },
-  {
-    id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
-    id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
+    id: "2",
+    title: "Chatbot",
+    text: "Automatiza atendimento, gera leads, economiza custos e melhora engajamento do cliente.",
+    backgroundUrl: "./src/assets/benefits/card-4.svg",
+    iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
+    light: true,
   },
 ];
 

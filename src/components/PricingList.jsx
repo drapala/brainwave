@@ -29,10 +29,10 @@ const PricingList = () => {
 
           <Button
             className="w-full mb-6"
-            href={item.price ? "/pricing" : "mailto:contact@jsmastery.pro"}
+            href={item.price ? "/pricing" : "mailto:contato@drapala.com"}
             white={!!item.price}
           >
-            {item.price ? "Get started" : "Contact us"}
+            {item.price ? "Comece agora" : "Agende uma reunião"}
           </Button>
 
           <ul>
@@ -42,7 +42,7 @@ const PricingList = () => {
                 className="flex items-start py-5 border-t border-n-6"
               >
                 <img src={check} width={24} height={24} alt="Check" />
-                <p className="body-2 ml-4">{feature}</p>
+                <p className="body-2 ml-6">{feature}</p>
               </li>
             ))}
           </ul>

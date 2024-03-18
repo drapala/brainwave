@@ -10,7 +10,7 @@ const Collaboration = () => {
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
           <h2 className="h2 mb-4 md:mb-8">
-            AI Chat App for seamless collaboration
+          Ecossistema integrado e automatizado
           </h2>
 
           <ul className="max-w-[22rem] mb-10 md:mb-14">
@@ -27,7 +27,10 @@ const Collaboration = () => {
             ))}
           </ul>
 
-          <Button>Try it now</Button>
+          <Button href="https://wa.me/5512996377727" target="_blank" rel="noopener noreferrer"
+        >
+          Fale com um especialista
+        </Button>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">
@@ -58,7 +61,7 @@ const Collaboration = () => {
                   }`}
                 >
                   <div
-                    className={`relative -top-[1.6rem] flex w-[3.2rem] h-[3.2rem] bg-n-7 border border-n-1/15 rounded-xl -rotate-${
+                    className={`relative -top-[1.6rem] flex w-[3.2rem] h-[3.2rem] bg-n-8 border border-n-1/15 rounded-xl -rotate-${
                       index * 45
                     }`}
                   >
